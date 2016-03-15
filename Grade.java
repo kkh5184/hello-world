@@ -1,22 +1,22 @@
 import java.util.Scanner;
 
 public class Grade {
-    public static void main(String[] args) {
+	public static void main(String[] args) {
         
       	Scanner a = new Scanner(System.in);
-		System.out.println("Enter grade: ");
-		int n = a.nextInt();        
+	System.out.println("Enter grade: ");
+	int n = a.nextInt();        
         if (n >= 90) {
-            System.out.println("A");
+        	System.out.println("A");
         }
         if (n < 90) {
         	if (n >= 80){
-            System.out.println("B");
+        		System.out.println("B");
         	}
         }
         if (n < 80){
         	if (n >= 70){
-        	System.out.println("C");
+        		System.out.println("C");
         	}
         }
         if (n < 70) {
@@ -27,6 +27,5 @@ public class Grade {
         if (n < 60) {
         	System.out.println("F");
         }
-
-    }
+	}
 }
